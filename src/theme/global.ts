@@ -30,7 +30,7 @@ export const theme: DefaultTheme = {
     sm: 18,
     md: 20,
     lg: 30,
-    xx: 33,
+    xxl: 33,
     xl: 40,
     giant: 76,
   },

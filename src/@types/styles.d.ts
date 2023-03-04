@@ -1,4 +1,5 @@
-declare module "styled-components/native" {
+import "styled-components";
+declare module "styled-components" {
   export interface DefaultTheme {
     colors: {
       white: string;
@@ -29,7 +30,7 @@ declare module "styled-components/native" {
       sm: number;
       md: number;
       lg: number;
-      xx: number;
+      xxl: number;
       xl: number;
       giant: number;
     };
