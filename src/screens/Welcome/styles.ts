@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 
-const Container = styled.View`
+const Container = styled.ScrollView`
   flex: 1;
   padding: 0 16px;
 `;
@@ -8,6 +8,7 @@ const Content = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+  padding-top: 113px;
 `;
 const Image = styled.Image``;
 const Footer = styled.View`
@@ -28,10 +29,11 @@ const PhraseText = styled.Text`
   color: ${(props) => props.theme.colors.gray100};
   text-align: center;
   margin-top: 33px;
+  margin-bottom: 74px;
 `;
 
-const BrandName = styled.Text`
-  font-family: ${(props) => props.theme.fontFamily.regular};
+const AppName = styled.Text`
+  font-family: ${(props) => props.theme.fontFamily.bold};
   font-size: ${(props) => props.theme.fontSize.md}px;
   color: ${(props) => props.theme.colors.gray100};
 `;
@@ -43,5 +45,5 @@ export default {
   Image,
   HeadText,
   PhraseText,
-  BrandName,
+  AppName,
 };

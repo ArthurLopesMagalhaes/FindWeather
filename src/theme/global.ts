@@ -28,7 +28,7 @@ export const theme: DefaultTheme = {
     xxs: 14,
     xs: 16,
     sm: 18,
-    md: 20,
+    md: 22,
     lg: 30,
     xxl: 33,
     xl: 40,
